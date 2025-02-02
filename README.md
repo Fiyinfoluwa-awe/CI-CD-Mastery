@@ -1,10 +1,11 @@
 # CI/CD-Mastery
-building docker image using Jenkins
 
- Project Scenario 
+ ### Project Scenario 
+ ---
 A  technology consulting firm wants to adopt a cloud architecture for its software applications. As a DevOps Engineer, your task is to design and implement a robust and CI/CD pipe line using Jenkins to automate the deployment of a web application. The goal is to achieve continuous integration, continuous deployment and ensure the stability and reliability of the applications.
 
-Pre-requisite
+### Pre-requisite
+---
 
 * Knowledge of Jenkins essentials
 * Completion of Introduction to Jenkins, Jenkins Freestyle Project,and Jenkins Pipeline Jobs mini projects
@@ -12,12 +13,6 @@ Pre-requisite
 
 ## Jenkins Server Setup 
 
-
-Setting up the necessary Plugins ( Git, Docker,etc )
-
-Configuring Jenkins with the security measures
-
-Installed Jenkins on my ubuntu
 
 Updating package repositories
 
@@ -43,13 +38,13 @@ On my Jenkins instance, create new inbound rule for this in the security group o
 
 ## Setting up Jenkins on The Web Console 
 
-Input my Jenkins Instance IP address on my web browser 
+Inputted my Jenkins Instance IP address on my web browser 
 
 `http://<ip_address>:8080`
 
 ![alt text](<step 6 login to jenkins ( browser check).jpg>)
 
-On your Jenkins instance, check `var/lib/jenkins/initialAdminPassword` to know my password.
+On my Jenkins instance, check `var/lib/jenkins/initialAdminPassword` to know my password.
 
 
 ![alt text](<step 7 initial Admin password.jpg>)
@@ -79,8 +74,7 @@ Connecting Jenkins to the version control system for source code management.
 
  ![alt text](<step 15 testing the webook (updated the readme).jpg>)
 
-integrating Jenkins with the source code management repository, in my case Github
-(document the integration steps with the version control system )
+Integrating Jenkins with the source code management repository, in my case Github
 
 Configuring webhooks to automate the trigerring of Jenkins builds
 (provide intructions for setting up webhooks)
@@ -100,7 +94,7 @@ Created my freestyle project
 
 ![alt text](<step 10 creating freestyle project.jpg>)
 
-named it `my-first-job`
+named it **`my-first-job`**
 
 Connecting Jenkins with  my github repository by pasting the repository url in configuration of the freestyle project, making sure that current branch is `main`.
 
